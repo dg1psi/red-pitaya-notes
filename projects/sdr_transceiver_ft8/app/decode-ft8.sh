@@ -44,7 +44,7 @@ do
   do
     sleep 1
   done
-  nice -n $NICE $DECODER $file &
+  nice -n $NICE $DECODER $file > $ALLMEPT &
 done
 
 wait
